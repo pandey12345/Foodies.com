@@ -1,35 +1,22 @@
 <html>
     <head>
-        <title>Login Page</title>
-        <style type="text/css">
-            .bgimg{
-                background-image: url('background.jpg');
-            }
-            </style>
+        <title>LOGIN</title>
+        <link rel="stylesheet" type="text/css" href="LOGIN.css">
     </head>
-    <body class="bgimg">
-        <form action="action_page.php">
-            <div class="imgcontainer">
-              <img src="1.png" alt="Avatar" class="avatar" height="40px" width="40px">
-            </div>
-          
-            <div class="container">
-              <label for="uname"><b>Username</b></label>
-              <input type="text" placeholder="Enter Username" name="uname" required>
-          <br>
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
-          <br>
-              <button type="submit">Login</button>
-              <label><br>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-              </label>
-            </div>
-          
-            <div class="container">
-              <button type="button" class="cancelbtn">Cancel</button><br>
-              <span class="psw"><a href="#">Forgot password?</a></span>
-            </div>
-          </form>
+    <body>
+        <div class="loginbox">
+        <img src="avatar.png" class="avatar">
+             <h1>Login Here</h1>
+             <form>
+                 <p>Username</p>
+                 <input type="text" name="" placeholder="Enter Username">
+                 <p>Password</p>
+                 <input type="password" name="" placeholder="Enter Password">
+                 <input type="submit" name="" value="Login">
+                 <a href="#">Lost your password?</a><br>
+                 <a href="#">Don't have an account?</a>
+             </form>
+        </div>
+
     </body>
 </html>

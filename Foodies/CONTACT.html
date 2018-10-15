@@ -1,9 +1,20 @@
 <html>
     <head>
-        <title>Foodies.com</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="CONTACT.css">
     </head>
-    <body background="background.jpg" height="100px" width="100px">
-        </body>
-        </html>
+    <body>
+       <div class="contact-title">
+        <h1>Say Hello</h1>
+        <h2>We are always ready to serve you!</h2>
+       </div>
+       <div class="contact-form">
+         <form id="contact-form" method="POST" action="">
+             <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+             <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+             <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+             <input type="submit" class="form-control submit" value="SEND MESSAGE">
+             </form>
+       </div>     
+    </body>
+    </html>
